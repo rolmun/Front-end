@@ -1,0 +1,103 @@
+<!--box model, (margin left and right)
+using height/width is bad because it will not force the 
+button to have a certain size, if it changes
+ (then add padding), the button will readjust based on 
+the button text -->
+
+<!--dynamic-->
+
+     <style>
+        .subscribe-button {
+          background-color: rgb(200, 0, 0);
+          color: white;
+          border: none;
+          margin-right: 8px;
+          margin-left: 8px;
+          border-radius: 2px;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          padding-left: 15px;
+          padding-right: 15px;
+          cursor: pointer;
+          margin-right: 8px;
+          transition: opacity 0.15s;
+          vertical-align: top;
+    
+        }
+        .subscribe-button:hover{
+          opacity:0.75;
+        }
+        .subscribe-button:active{
+          opacity:0.20;
+        }
+    
+        .join-button {
+        background-color: white;
+        border-color: rgb(41, 118, 211);
+        border-style: solid;
+        border-width: 1px;
+        color: rgb(41, 118, 211);
+        margin-right: 8px;
+        margin-left: 8px;
+        border-radius: 2px;
+        padding-top: 10px;
+        padding-bottom: 8px;
+        padding-left: 15px;
+        padding-right: 15px;
+        cursor: pointer;
+        transition: background-color .15s, color .15s;
+        vertical-align: top;
+        }
+    
+        .join-button:hover {
+          background-color: rgb(41, 118, 211);
+          color: white;
+        }
+         .join-button:active {
+          opacity: 0.60;
+        }
+    
+        .tweet-button {
+        background-color: rgb(2, 158, 255);
+        color: white;
+        border: none;
+        margin-right: 8px;
+        margin-left: 0px;
+        border-radius: 2px;
+        padding-top: 10px;
+        padding-bottom: 8px;
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 8px;
+        border-radius: 18px;
+        font-weight: bold;
+        font-size: 15px;
+        cursor: pointer;
+        margin-left: 8px;
+        transition: box-shadow .15s;
+        vertical-align: top;
+        }
+        
+        .tweet-button:hover {
+          box-shadow: 0 3px 10px rgba(0, 0, 0, 0.25);
+        }
+        
+        .tweet-button:active {
+          opacity: .70;
+        }
+    </style>
+    
+    
+    
+    <button class="subscribe-button">
+        SUBSCRIBE 
+      </button>
+      
+      <button class="join-button">
+        JOIN
+      </button>
+      
+      <button class="tweet-button">
+        Tweet
+      </button>
+    
