@@ -6,70 +6,80 @@
 <!--border radius are the corners-->
 
 <!-- if you have more than one button call it as a class-->
-<style>
-  .subscribe-button  {  
-    background-color: rgb(186, 28, 28);
-    color:white;
-    border:none;
-    height: 36px;
-    width:106px;
-    border-radius: 2px;
-    cursor: pointer;
-    margin-right:8px;
-  }
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .subscribe-button  {  
+        background-color: rgb(186, 28, 28);
+        color:white;
+        border:none;
+        height: 36px;
+        width:106px;
+        border-radius: 2px;
+        cursor: pointer;
+        margin-right:8px;
+      }
+    
+      .subscribe-button:hover {
+        background-color: rgb(186, 73, 73);
+      }
+      
+      .join-button  {  
+        background-color: rgb(255, 255, 255);
+        color: rgb(38, 38, 241);
+        border-style: solid;
+        border-width: 1px;
+        border-color:rgb(38, 38, 241);
+        height: 36px;
+        width:106px;
+        border-radius: 2px;
+        cursor: pointer;
+        margin-right:8px;
+      }
+    
+      .join-button:hover {
+        background-color: rgb(230, 232, 230);
+      }
+    
+      .tweet-button  {  
+        background-color: rgb(43, 139, 165);
+        color: rgb(255, 255, 255);
+        border:none;
+        height: 36px;
+        width:106px;
+        border-radius: 18px;
+        cursor: pointer;
+        margin-right:8px;
+        font-weight:bold;
+        font-size:15px;
+      }
+      .tweet-button:hover {
+        background-color: rgb(42, 42, 157);
+      }
+    </style>
+  </head>
 
-  .subscribe-button:hover {
-    background-color: rgb(186, 73, 73);
-  }
-  
-  .join-button  {  
-    background-color: rgb(255, 255, 255);
-    color: rgb(38, 38, 241);
-    border-style: solid;
-    border-width: 1px;
-    border-color:rgb(38, 38, 241);
-    height: 36px;
-    width:106px;
-    border-radius: 2px;
-    cursor: pointer;
-    margin-right:8px;
-  }
-
-  .join-button:hover {
-    background-color: rgb(230, 232, 230);
-  }
-
-  .tweet-button  {  
-    background-color: rgb(43, 139, 165);
-    color: rgb(255, 255, 255);
-    border:none;
-    height: 36px;
-    width:106px;
-    border-radius: 18px;
-    cursor: pointer;
-    margin-right:8px;
-    font-weight:bold;
-    font-size:15px;
-  }
-  .tweet-button:hover {
-    background-color: rgb(42, 42, 157);
-  }
-</style>
-
+  <body>
 
 <!-- 1. make button with SUBCRIBE in the content -->
 <!-- 5. give it a class attribute to label -->
 <button class="subscribe-button">
-   SUBSCRIBE
+  SUBSCRIBE
 </button>
 
 <!-- 4. join button-->
 <button class="join-button"> 
-  JOIN 
+ JOIN 
 </button>
 
 <!-- 4. join button-->
 <button class="tweet-button"> 
- Tweet
+Tweet
 </button>
+
+  </body>
+  
+</html>
+
 
