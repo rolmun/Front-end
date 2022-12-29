@@ -18,10 +18,7 @@ p{
     line-height: 25px;
     margin-bottom: 5px;
 }
-.view-posted{
-    font-size: 14px;
-    color: rgb(56,56,56);
-}
+
 .view-posted{
     font-size: 14px;
     color: rgb(56,56,56);
@@ -31,24 +28,42 @@ p{
     color: rgb(56,56,56);
     margin-bottom: 20px; 
 }
+.author:hover{
+    cursor: pointer;
+}
+.author:active{
+   opacity: .75;
+}
 .intro-text{
     width: 300px;
     line-height: 25px;
     margin-bottom: 20px;
-
 }
-.apple-shop{
+
+.apple-text{
     font-weight: bold;
-    width: 450px;
-    background-color:#af1e2d;
+    width: 550px;
+    background-color: rgb(227, 65, 64);
     color: aliceblue;
-    padding-left: 150px;
-    padding-right: 150px;
-    padding-top: 10px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 12px;
     padding-bottom: 10px;
-    vertical-align: center;
+    text-align: center;
 }
-
+.shop-now {
+    color: whitesmoke;
+    margin-left: 20px;
+    transition: .15s;
+}
+.shop-now:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+.shop-now:active {
+    opacity: .75;
+    color: rgb(168, 166, 166);
+}
 </style>
 
 <p class="video-title">
@@ -69,8 +84,8 @@ p{
     Shoutout to Sundar!
 </p>
 
-<p class="apple-shop">
+<p class="apple-text">
     Shop early for the best 
     selection of holiday favourites.
-    Shop now &#62;
+<span class="shop-now">Shop now &#62; </span>
 </p>
