@@ -1,0 +1,58 @@
+p{
+            font-family: Roboto;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        .video-title{
+            font-size: 18px;
+            font-weight: bold;
+            width: 300px;
+            line-height: 25px;
+            margin-bottom: 5px;
+        }
+        
+        .view-posted{
+            font-size: 14px;
+            color: rgb(56,56,56);
+            margin-bottom: 20px;
+        }
+        .author{
+            color: rgb(56,56,56);
+            margin-bottom: 20px; 
+        }
+        .author:hover{
+            cursor: pointer;
+        }
+        .author:active{
+           opacity: .75;
+        }
+        .intro-text{
+            width: 300px;
+            line-height: 25px;
+            margin-bottom: 20px;
+        }
+        
+        .apple-text{
+            font-weight: bold;
+            width: 550px;
+            background-color: rgb(227, 65, 64);
+            color: aliceblue;
+            padding-left: 80px;
+            padding-right: 80px;
+            padding-top: 12px;
+            padding-bottom: 10px;
+            text-align: center;
+        }
+        .shop-now {
+            color: whitesmoke;
+            margin-left: 20px;
+            transition: .15s;
+        }
+        .shop-now:hover {
+            cursor: pointer;
+            text-decoration: underline;
+        }
+        .shop-now:active {
+            opacity: .75;
+            color: rgb(168, 166, 166);
+        }
