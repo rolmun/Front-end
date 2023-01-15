@@ -2,7 +2,16 @@
 <html>
   <head>
     <title>Youtube.com Clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
     <style>
+      p {
+        font-family: Roboto, Arial;
+      }
       .thumbnail {
         cursor: pointer;
         width: 300px;
@@ -16,11 +25,23 @@
 
       .video-title {
         margin-top: 0;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+      }
+      .video-author,
+      .videostats {
+        font-size: 12px;
+        color: rgb(96, 96, 96);
       }
       .video-preview {
         display: inline-block;
         vertical-align: top;
         margin-right: 15px;
+      }
+
+      .thumbnail-row {
+        margin-bottom: 12px;
       }
       .channel-picture {
         display: inline-block;
@@ -32,7 +53,8 @@
         width: 200px;
       }
       .profile-picture {
-        width: 100%;
+        width: 45px;
+        border-radius: 50px;
       }
     </style>
   </head>
@@ -40,7 +62,7 @@
   <body>
     <input class="search-bar" type="text" placeholder="Search" />
     <div class="video-preview">
-      <div>
+      <div class="thumbnail-row">
         <img class="thumbnail" src="thumbnails/thumbnail-1.webp" />
       </div>
 
