@@ -3,6 +3,11 @@
   <head>
     <title>Cat Follow</title>
     <style>
+      .cat-container {
+        width: 300px;
+        display: block;
+      }
+
       .follow-button {
         cursor: pointer;
         border-color: rgb(59, 59, 164);
@@ -19,18 +24,23 @@
   </head>
   <body>
     <div class="cat-container">
-      <div class="profile-picture"></div>
-    </div>
+      <div class="profile-picture">
+        <p>Cat1 picture</p>
+      </div>
 
-    <p>Cat1 picture</p>
-    <p>Cat1 Name</p>
-    <p>Cat1 personality</p>
-    <p>Cat1 Ranking</p>
+      <div class="cat-info">
+        <p>Cat1 Name</p>
+        <p>Cat1 personality</p>
+        <p>Cat1 Ranking</p>
+      </div>
+      <div class="follow-button">
+        <p>Follow</p>
+      </div>
+    </div>
 
     <p>Cat2 picture</p>
     <p>Cat2 Name</p>
     <p>Cat2 personality</p>
     <p>Cat2 Ranking</p>
-    <button class="follow-button">Follow</button>
   </body>
 </html>
