@@ -13,8 +13,9 @@
         cursor: pointer;
         display: block;
       }
+
       .video-title {
-        width: 300px;
+        margin-top: 0;
       }
       .video-preview {
         display: inline-block;
@@ -24,10 +25,14 @@
       .channel-picture {
         display: inline-block;
         width: 50px;
+        vertical-align: top;
       }
       .video-info {
         display: inline-block;
         width: 200px;
+      }
+      .profile-picture {
+        width: 100%;
       }
     </style>
   </head>
@@ -41,7 +46,7 @@
 
       <div>
         <div class="channel-picture">
-          <img src="channel-pictures/channel-1.jpeg" />
+          <img class="profile-picture" src="channel-pictures/channel-1.jpeg" />
         </div>
 
         <div class="video-info">
