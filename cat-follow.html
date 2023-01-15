@@ -1,11 +1,31 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
     <title>Cat Follow</title>
     <style>
+      p {
+        font-family: Roboto, Arial;
+        font-size: 15px;
+      }
+
       .cat-container {
-        width: 300px;
-        display: block;
+        width: 500px;
+        display: inline-block;
+      }
+      .profile-picture {
+        vertical-align: top;
+        margin-right: 5px;
+        width: 50px;
+        display: inline-block;
+      }
+      .cat-info {
+        display: inline-block;
       }
 
       .follow-button {
@@ -13,6 +33,7 @@
         border-color: rgb(59, 59, 164);
         background-color: rgb(59, 59, 164);
         color: aliceblue;
+        display: inline-block;
       }
       .follow-button:hover {
         opacity: 95%;
@@ -25,14 +46,15 @@
   <body>
     <div class="cat-container">
       <div class="profile-picture">
-        <p>Cat1 picture</p>
+        <img src="channel-pictures/channel-1.jpeg" />
       </div>
 
       <div class="cat-info">
-        <p>Cat1 Name</p>
-        <p>Cat1 personality</p>
-        <p>Cat1 Ranking</p>
+        <p>Name</p>
+        <p>personality</p>
+        <p>Ranking</p>
       </div>
+
       <div class="follow-button">
         <p>Follow</p>
       </div>
