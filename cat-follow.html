@@ -1,23 +1,17 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
-      rel="stylesheet"
-    />
     <title>Cat Follow</title>
     <style>
       p {
-        font-family: Roboto, Arial;
+        font-family: Arial;
         font-size: 15px;
         margin-top: 0;
         margin-bottom: 0;
       }
 
-      .cat-container {
-        width: 300px;
+      .cat-grid {
+        display: grid;
         display: inline-block;
       }
       .profile-picture {
@@ -47,10 +41,11 @@
       }
     </style>
   </head>
+
   <body>
-    <div class="cat-container">
-      <div class="profile-picture">
-        <img src="channel-pictures/channel-1.jpeg" />
+    <div class="cat-grid">
+      <div class="entire-profile">
+        <img class="profile-picture" src="animal-pictures/cat.jpg" />
       </div>
 
       <div class="cat-info">
@@ -63,10 +58,5 @@
         <p>Follow</p>
       </div>
     </div>
-
-    <p>Cat2 picture</p>
-    <p>Cat2 Name</p>
-    <p>Cat2 personality</p>
-    <p>Cat2 Ranking</p>
   </body>
 </html>
