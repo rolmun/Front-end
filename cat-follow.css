@@ -1,0 +1,70 @@
+p {
+  font-family: Arial;
+  font-size: 15px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+}
+.profile {
+  width: 200px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  vertical-align: top;
+  margin-right: 15px;
+}
+.cat-name {
+  margin-left: 5px;
+  margin-top: 5px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.main-profile-picture {
+  vertical-align: top;
+  margin-top: 5px;
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+.mutual-friends-picture {
+  margin-left: 5px;
+  width: 45px;
+  height: 45px;
+  border-radius: 50px;
+  margin-right: 5px;
+}
+.mutual-friends-row {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  margin-left: 5px;
+  margin-bottom: 10px;
+  background-color: lightgray;
+}
+.mutual-friends {
+  color: rgb(100, 100, 100);
+}
+
+.add-friend-button {
+  margin-top: 10px;
+  vertical-align: top;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(24, 119, 242);
+  color: aliceblue;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  width: 100px;
+}
+.add-friend:hover {
+  opacity: 85%;
+}
+.add-friend:active {
+  opacity: 75%;
+  background-color: rgb(17, 95, 196);
+}
