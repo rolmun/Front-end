@@ -7,6 +7,7 @@ p {
 
 .grid {
   display: grid;
+  grid-template-columns: 200px 200px 200px;
 }
 .profile {
   width: 200px;
@@ -19,6 +20,7 @@ p {
   margin-top: 5px;
   font-weight: bold;
   margin-bottom: 5px;
+  background-color: lightgray;
 }
 .main-profile-picture {
   vertical-align: top;
