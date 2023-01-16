@@ -12,32 +12,42 @@
 
       .cat-grid {
         display: grid;
-        display: inline-block;
       }
-      .profile-picture {
+      .main-profile-picture {
         vertical-align: top;
-        margin-right: 5px;
-        width: 100px;
-        display: inline-block;
+        width: 200px;
+        height: 200px;
+        border-radius: 5px;
       }
-      .cat-info {
-        vertical-align: top;
-        display: inline-block;
+      .mini-profile-picture {
+        width: 45px;
+        height: 45px;
+        border-radius: 50px;
+      }
+      .cat-name {
+        margin-top: 5px;
+        font-weight: bold;
       }
 
       .follow-button {
+        margin-top: 5px;
         vertical-align: top;
         cursor: pointer;
-        border-color: rgb(59, 59, 164);
-        background-color: rgb(59, 59, 164);
+        border: none;
+        border-radius: 5px;
+        background-color: rgb(24, 119, 242);
         color: aliceblue;
-        display: inline-block;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
       }
       .follow-button:hover {
-        opacity: 95%;
+        opacity: 85%;
       }
       .follow-button:active {
-        opacity: 85%;
+        opacity: 75%;
+        background-color: rgb(17, 95, 196);
       }
     </style>
   </head>
@@ -45,18 +55,28 @@
   <body>
     <div class="cat-grid">
       <div class="entire-profile">
-        <img class="profile-picture" src="animal-pictures/cat.jpg" />
+        <img class="main-profile-picture" src="animal-pictures/cat.jpg" />
       </div>
 
-      <div class="cat-info">
-        <p>Name</p>
-        <p>personality</p>
-        <p>Ranking</p>
+      <div class="cat-name">
+        <p>Oliver</p>
       </div>
 
-      <div class="follow-button">
-        <p>Follow</p>
+      <div class="cat-info-grid">
+        <div>
+          <img
+            class="mini-profile-picture"
+            src="channel-pictures/cat-profile-1.png"
+          />
+        </div>
+        <div>
+          <p>2 mutual friends</p>
+        </div>
       </div>
+
+      <p>Ranking</p>
+
+      <button class="follow-button">Add Friend</button>
     </div>
   </body>
 </html>
