@@ -13,6 +13,10 @@
       .cat-grid {
         display: grid;
       }
+      .cat-info-grid {
+        display: grid;
+        grid-template-columns: 50px 1fr;
+      }
       .main-profile-picture {
         vertical-align: top;
         width: 200px;
@@ -69,14 +73,14 @@
             src="channel-pictures/cat-profile-1.png"
           />
         </div>
-        <div>
+        <div class="mutual-friends">
           <p>2 mutual friends</p>
         </div>
       </div>
 
-      <p>Ranking</p>
-
-      <button class="follow-button">Add Friend</button>
+      <div class="add-friend">
+        <button class="follow-button">Add Friend</button>
+      </div>
     </div>
   </body>
 </html>
