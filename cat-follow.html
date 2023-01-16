@@ -10,30 +10,29 @@
         margin-bottom: 0;
       }
 
-      .cat-grid {
+      .grid {
         display: grid;
-      
       }
 
+      .cat-name {
+        margin-top: 5px;
+        font-weight: bold;
+        margin-bottom: 5px;
+      }
       .main-profile-picture {
         vertical-align: top;
         width: 200px;
         height: 200px;
         border-radius: 5px;
       }
-
-      .mini-profile-picture {
+      .mutual-picture {
         width: 45px;
         height: 45px;
         border-radius: 50px;
       }
-
-      .cat-name {
-        margin-top: 5px;
-        font-weight: bold;
-      }
       .mutual-friends {
         color: rgb(100, 100, 100);
+        grid-template-columns: 100px 100px;
       }
 
       .follow-button {
@@ -63,13 +62,13 @@
     <div class="grid">
       <div class="profile-grid">
         <img class="main-profile-picture" src="animal-pictures/cat.jpg" />
-        <p>Oliver</p>
+        <p class="cat-name">Oliver</p>
       </div>
 
 
         <div class="mutual-friends">
           <img
-          class="mini-profile-picture"
+          class="mutual-picture"
           src="channel-pictures/cat-profile-1.png" />
           <p>
           2 mutual friends
