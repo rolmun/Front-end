@@ -39,6 +39,7 @@ p {
 .mutual-friends-row {
   display: grid;
   grid-template-columns: 50px 1fr;
+  align-items: center;
   margin-left: 5px;
   margin-bottom: 10px;
   background-color: lightgray;
