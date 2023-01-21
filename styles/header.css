@@ -2,3 +2,6 @@
     cursor: pointer;
     display: block;
   }
+  .header{
+    height: 55px;
+  }
