@@ -6,6 +6,7 @@
     height: 55px;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
   }
 
   .left-section{
@@ -16,7 +17,7 @@
     background-color: lightpink;
     flex:1;
     margin-left: 70px;
-    max-width: 300px;
+    max-width: 400px;
   }
   .right-section{
     background-color: lightblue;
