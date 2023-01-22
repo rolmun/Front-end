@@ -6,8 +6,8 @@
     height: 55px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    vertical-align: center;
+    justify-content: space-between; 
+    align-items: center;
   }
 
   .left-section{
@@ -15,7 +15,7 @@
     width: 150px;
   }
   .hamburger-menu{
-    height: 50px;
+    height: 20px;
   }
   .youtube-logo{
     height: 20px;
