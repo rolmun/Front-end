@@ -16,7 +16,9 @@
     align-items: center;
   }
   .hamburger-menu{
-    height: 20px;
+    height: 24px;
+    margin-left: 20px;
+    margin-right: 20px;
   }
   .youtube-logo{
     height: 20px;
