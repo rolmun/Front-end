@@ -23,7 +23,6 @@
   }
 
   .middle-section{
-    background-color: lightpink;
     display: flex;
     flex:1;
     align-items: center;
@@ -33,6 +32,16 @@
   .search-bar{
     flex:1;
     height: 34px;
+    padding-left: 10px;
+    font-size: 15px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: lightgrey;
+    border-radius: 3px;
+  }
+  .search-bar::placeholder{
+    font-family: Roboto, Ariel;
+    font-size: 16px;
   }
   .search{
     height: 40px;
