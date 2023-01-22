@@ -7,12 +7,20 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    vertical-align: center;
   }
 
   .left-section{
     background-color: lightblue;
     width: 150px;
   }
+  .hamburger-menu{
+    height: 50px;
+  }
+  .youtube-logo{
+    height: 20px;
+  }
+
   .middle-section{
     background-color: lightpink;
     flex:1;
