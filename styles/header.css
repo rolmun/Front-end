@@ -10,7 +10,6 @@
   }
 
   .left-section{
-    background-color: lightblue;
     display: flex;
     align-items: center;
   }
@@ -29,6 +28,10 @@
     margin-left: 70px;
     max-width: 500px;
   }
+  .search{
+    height: 24px;
+  }
+
   .right-section{
     background-color: lightblue;
     width: 200px;
