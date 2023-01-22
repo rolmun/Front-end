@@ -26,15 +26,21 @@
     background-color: lightpink;
     display: flex;
     flex:1;
+    align-items: center;
     margin-left: 70px;
     max-width: 500px;
   }
+  .search-bar{
+    flex:1;
+  }
   .search{
-    height: 24px;
+    height: 40px;
+    width: 60px;
   }
   .voice-search{
-
-  }
+    height: 40px;
+    width: 60px;
+ }
   
 
   .right-section{
