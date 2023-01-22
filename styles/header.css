@@ -24,6 +24,7 @@
 
   .middle-section{
     background-color: lightpink;
+    display: flex;
     flex:1;
     margin-left: 70px;
     max-width: 500px;
@@ -31,6 +32,10 @@
   .search{
     height: 24px;
   }
+  .voice-search{
+
+  }
+  
 
   .right-section{
     background-color: lightblue;
