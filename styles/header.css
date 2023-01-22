@@ -32,6 +32,7 @@
   }
   .search-bar{
     flex:1;
+    height: 34px;
   }
   .search{
     height: 40px;
