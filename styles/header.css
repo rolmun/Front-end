@@ -11,17 +11,16 @@
 
   .left-section{
     background-color: lightblue;
-    width: 150px;
     display: flex;
     align-items: center;
   }
   .hamburger-menu{
     height: 24px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 24px;
+    margin-right: 24px;
   }
   .youtube-logo{
-    height: 20px;
+    height: 24px;
   }
 
   .middle-section{
