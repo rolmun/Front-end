@@ -68,7 +68,6 @@
     border: none;
     background-color: rgb(236, 235, 235);
  }
- 
  .voice-icon{
   height: 24px;
   margin-top: 4px;
@@ -79,4 +78,19 @@
     background-color: lightblue;
     width: 200px;
     margin-left: 45px;
+  }
+
+  .upload-icon{
+  height: 20px;
+  }
+  .youtube-apps-icon{
+    height: 20px;
+  
+  }
+
+  .notifications-icon{
+    height: 24px;
+  }
+  .current-user-picture{
+    height: 20px;
   }
