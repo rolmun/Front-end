@@ -41,21 +41,20 @@
     border-radius: 15px 0px 0px 15px;
     box-shadow: inset 1px 2px 2px 
     rgba(0, 0, 0, 0.06);
-
   }
   .search-bar::placeholder{
     font-family: Roboto, Ariel;
     font-size: 16px;
   }
   .search-button{
-    height: 38px;
+    height: 39px;
     width: 60px;
     margin-left: -1px;
     margin-right: 15px;
     border-radius: 0px 15px 15px 0px;
     border-style: solid;
     border-color: rgb(222, 221, 221);
-    background-color: rgb(236, 235, 235);
+    background-color: rgb(255, 255, 255);
   }
   .search-icon{
     height: 24px;
@@ -75,22 +74,25 @@
   
 
   .right-section{
-    background-color: lightblue;
-    width: 200px;
-    margin-left: 45px;
+    width: 180px;
+    margin-left: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 20px;
   }
 
   .upload-icon{
-  height: 20px;
+  height: 30px;
   }
   .youtube-apps-icon{
-    height: 20px;
-  
+    height: 30px;
   }
 
   .notifications-icon{
-    height: 24px;
+    height: 30px;
   }
   .current-user-picture{
-    height: 20px;
+    height: 30px;
+    border-radius: 15px;
   }
