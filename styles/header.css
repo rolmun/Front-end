@@ -43,13 +43,21 @@
     font-family: Roboto, Ariel;
     font-size: 16px;
   }
-  .search{
+  .search-button{
     height: 40px;
     width: 60px;
   }
-  .voice-search{
+  .search-icon{
+    height: 20px;
+  
+  }
+  .voice-button{
     height: 40px;
-    width: 60px;
+  width: 60px;
+ }
+ 
+ .voice-icon{
+  height: 20px;
  }
   
 
