@@ -1,0 +1,144 @@
+body {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: Arial, sans-serif;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 50vh;
+ background-color: rgba(109, 106, 106, 0.486);
+}
+
+h2 {
+ font-family: ariel;
+ color: rgb(28, 39, 28);
+ font-size: 50px;
+ margin: 15px 0;
+}
+
+#loginSection {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ width: 100%;
+ max-width: 500px;
+ margin-bottom: 10px;
+}
+
+#taskSection {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ width: 100%;
+ max-width: 500px;
+}
+
+#loginSection,
+#taskSection .task-section,
+#taskInputContainer {
+ width: 180%;
+ display: flex;
+ justify-content: space-between;
+}
+
+#loginInputContainer {
+ display: flex;
+ justify-content: space-between;
+ width: 300px;
+}
+
+#loginInputContainer input {
+ flex-grow: 1;
+ margin-right: 10px;
+}
+
+#taskSection {
+ display: none;
+}
+
+#taskListContainer {
+ margin-top: 10px;
+ width: auto;
+}
+
+ul {
+ list-style: none;
+ padding: 0;
+}
+
+input,
+select {
+ padding: 10px;
+ margin: 5px 0;
+ flex-grow: 1;
+ margin-right: 10px;
+ font-size: 16px;
+}
+
+button {
+ font-size: 18px;
+ font-weight: bolder;
+ padding: 10px;
+ margin: 5px 0;
+ flex-grow: 1;
+ margin-right: 10px;
+ cursor: pointer;
+ background-color: #4caf50; /* Set the background color */
+ color: white; /* Set the text color */
+ border: none;
+ border-radius: 5px;
+ transition: background-color 0.3s, transform 0.3s; /* Add transition effects */
+}
+
+button:hover {
+ background-color: #45a049; /* Change background color on hover */
+ opacity: 86%;
+ box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+ font-weight: bold;
+}
+
+button:active {
+ transform: scale(0.95); /* Add a scaling effect when button is clicked */
+}
+
+li {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ background-color: #f0f0f0;
+ margin: 5px 0;
+ padding: 10px;
+ border-radius: 5px;
+}
+
+.delete-button {
+ padding: 10px 10px;
+ font-size: 0.8em;
+ width: 100px;
+ margin-left: 10px;
+}
+.delete-button:hover {
+ opacity: 95%;
+ box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+ font-weight: bolder;
+ font-size: 13.2px;
+}
+.delete-button-container {
+ flex-shrink: 0;
+}
+.update-button {
+ padding: 10px 10px;
+ font-size: 0.8em;
+ width: 100px;
+ margin-left: 10px;
+}
+
+.update-button:hover {
+ opacity: 95%;
+ box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+ font-weight: bolder;
+ font-size: 13.2px;
+}
